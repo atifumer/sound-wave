@@ -1,0 +1,170 @@
+        * {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: #262728;
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        .topround {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            padding: 20px;
+        }
+        
+        .circle {
+            width: 93px;
+            height: 93px;
+            background: linear-gradient(180deg, rgba(10, 92, 250, 0.5) 0%, rgba(244, 10, 235, 0.5) 100%);
+            border-radius: 100%;
+            padding: 5px;
+        }
+        
+        .hhh {
+            display: flex;
+            align-items: center;
+            /* padding: 20px;    */
+        }
+        
+        .insidecircle {
+            height: 100%;
+            width: 100%;
+            background-color: black;
+            border-radius: 100%;
+        }
+        
+        .dddo {
+            padding: 15px;
+            color: #C4C4C4;
+            font-size: 40px;
+            z-index: 111;
+        }
+        
+        .inio {
+            color: white;
+            padding: 10px;
+            font-size: 32px;
+        }
+        
+        .disv {
+            display: flex;
+            align-items: center;
+        }
+        
+        .cbn {
+            color: white;
+            text-decoration: none;
+            /* padding-right: 6rem; */
+            font-size: 24px;
+            padding: 20px;
+        }
+        
+        .mainround {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            max-width: 400px;
+        }
+        
+        .image2 {
+            position: absolute;
+            max-width: 200px;
+            max-height: 200px;
+            left: 30%;
+            overflow: hidden;
+        }
+        
+        .image3 {
+            position: absolute;
+            max-width: 200px;
+            max-height: 200px;
+            right: 0%;
+            bottom: 0%;
+        }
+        
+        .image4 {
+            position: absolute;
+            max-width: 180px;
+            max-height: 180px;
+            margin-top: 18%;
+            left: 0%;
+        }
+        
+        @media only screen and (max-width: 608px) {
+            .topround {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .mainround {
+                width: 100px;
+                display: flex;
+                justify-content: space-around;
+                padding: 10%;
+            }
+            .image3 {
+                display: none;
+            }
+            .image4 {
+                display: none;
+            }
+            .textround {
+                padding: 10px;
+                z-index: 111;
+                padding: 20px;
+                flex-direction: column;
+            }
+            .ddd {
+                width: fit-content;
+                height: fit-content;
+            }
+            .musicset {
+                height: 100%;
+            }
+        }
+        
+        .textround {
+            /* position: relative; */
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            max-width: 1200px;
+            /* height: 79vh; */
+            /* overflow: hidden; */
+            padding: 20px 20px 0px 20px;
+        }
+        
+        .musicset {
+            color: #fff;
+        }
+        
+        .feel {
+            margin-bottom: 10px;
+            font-size: 37px;
+            font-weight: 600;
+        }
+        
+        .over {
+            color: gray;
+            font-style: normal;
+        }
+        
+        .join {
+            margin-top: 20px;
+            text-decoration: none;
+            border: none;
+            padding: 15px;
+            color: white;
+            background: #374489;
+            font-size: 20px;
+        }
+        
+        .ddd {
+            width: 100%;
+            /* height: 100%; */
+        }

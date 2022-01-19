@@ -1,0 +1,196 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #262728;
+    font-family: 'Roboto', sans-serif;
+}
+
+.topround {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+}
+
+.circle {
+    width: 93px;
+    height: 93px;
+    background: linear-gradient(180deg, rgba(10, 92, 250, 0.5) 0%, rgba(244, 10, 235, 0.5) 100%);
+    border-radius: 100%;
+    padding: 5px;
+}
+
+.hhh {
+    display: flex;
+    align-items: center;
+    /* padding: 20px;    */
+}
+
+.insidecircle {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    border-radius: 100%;
+}
+
+.dddo {
+    padding: 15px;
+    color: #C4C4C4;
+    font-size: 40px;
+}
+
+.inio {
+    color: white;
+    padding: 10px;
+    font-size: 32px;
+}
+
+.disv {
+    display: flex;
+    align-items: center;
+}
+
+.cbn {
+    color: white;
+    text-decoration: none;
+    /* padding-right: 6rem; */
+    font-size: 24px;
+    padding: 20px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image2 {
+    position: absolute;
+    max-width: 200px;
+    max-height: 200px;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.new {
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem;
+}
+
+.chja {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.ninees {
+    font-size: 31px;
+    font-weight: 600;
+}
+
+.joining {
+    font-size: 19px;
+    margin-top: 20px;
+}
+
+.joining :hover {
+    color: blue;
+    transition: 4s;
+}
+
+.charts {
+    background: #C4C4C4;
+    padding: 20px;
+    text-align: center;
+}
+
+.wju {
+    color: red !important;
+    border-radius: 50%;
+    padding: 12px;
+    background-color: black;
+}
+
+.nop {
+    font-size: 32px;
+    top: 10px;
+    color: black;
+}
+
+.nop:hover {
+    border: 1px solid skyblue;
+    color: blue;
+    padding: 12px;
+}
+
+.pop {
+    color: black;
+    padding: 10px;
+}
+
+.pop:hover {
+    color: blue;
+}
+
+.music {
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #C4C4C4;
+    padding: 20px;
+    text-align: center;
+}
+
+.more {
+    background: #C4C4C4;
+    padding: 20px;
+    text-align: center;
+}
+
+.charts :hover {
+    color: blue;
+}
+
+.follow-section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+}
+
+.featur-img-sec {
+    width: 50%;
+}
+
+.feature-img {
+    width: 100%;
+    max-width: 1000px;
+    height: 100%;
+    max-height: 1000px;
+}
+
+@media only screen and (max-width: 608px) {
+    .topround {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .follow-section {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .new {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .featur-img-sec {
+        width: 100%;
+    }
+}

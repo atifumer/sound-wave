@@ -1,0 +1,191 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #262728;
+    font-family: 'Roboto', sans-serif;
+}
+
+.lead {
+    width: 100%;
+}
+
+.topround {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image2 {
+    position: absolute;
+    max-width: 200px;
+    max-height: 200px;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.circle {
+    width: 93px;
+    height: 93px;
+    background: linear-gradient(180deg, rgba(10, 92, 250, 0.5) 0%, rgba(244, 10, 235, 0.5) 100%);
+    border-radius: 100%;
+    padding: 5px;
+}
+
+.hhh {
+    display: flex;
+    align-items: center;
+    /* padding: 20px;    */
+}
+
+.insidecircle {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    border-radius: 100%;
+}
+
+.dddo {
+    padding: 15px;
+    color: #C4C4C4;
+    font-size: 40px;
+}
+
+.inio {
+    color: white;
+    padding: 10px;
+    font-size: 32px;
+}
+
+.disv {
+    display: flex;
+    align-items: center;
+}
+
+.cbn {
+    color: white;
+    text-decoration: none;
+    /* padding-right: 6rem; */
+    font-size: 24px;
+    padding: 20px;
+}
+
+.highmount {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 3rem;
+    align-items: center;
+}
+
+.norol {
+    font-size: 39px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.forol {
+    font-size: 39px;
+    font-weight: 700;
+    color: rgba(244, 10, 235, 0.5);
+}
+
+.inputside {
+    background-color: #000000;
+    border-radius: 12px;
+    padding: 32px;
+    color: white;
+    max-width: 373px;
+    width: 100%;
+}
+
+.pick {
+    line-height: 38px;
+}
+
+.kinho {
+    width: 100%;
+    height: 25px;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #221D1D;
+}
+
+.nowws {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #374489;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    text-decoration: none;
+    font-size: 20px;
+    color: honeydew;
+}
+
+footer {
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 25px;
+    background-color: #3A444E;
+}
+
+.abbbbb {
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    border-bottom: 4px solid #374489;
+}
+
+.kuin {
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+.bbps {
+    letter-spacing: 5px;
+    color: thistle;
+    font-family: fantasy;
+}
+
+.liko {
+    color: blue;
+}
+
+.reddds {
+    color: red;
+}
+
+@media only screen and (max-width: 608px) {
+    .topround {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .highmount {
+        flex-direction: column;
+        align-items: center;
+    }
+    .inputside {
+        margin-top: 20px;
+    }
+}
+
+.liko:hover {
+    color: black;
+}
